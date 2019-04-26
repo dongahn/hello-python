@@ -1,2 +1,10 @@
 language: python
+  - 2.7
+  - 3.7
+
+before-script:
+  - pip install -r requirements.txt
+
+script:
+  - make check
 
