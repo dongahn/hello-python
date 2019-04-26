@@ -6,8 +6,7 @@ services:
   - docker
 
 before_install:
-  - docker pull dongahn/friendlyhello
-  - docker run -p 4000:80 dongahn/friendlyhello
+  - docker run -p 4000:80 dongahn/friendlyhello:v0.0.1
   - docker container ls
 
 install:
