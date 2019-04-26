@@ -3,7 +3,7 @@ language: python
   - "3.7"
 
 install:
-  - pip install pycotap
+  - pip install --user pycotap
 
 script:
   - make check
